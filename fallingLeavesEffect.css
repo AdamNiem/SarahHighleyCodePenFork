@@ -1,0 +1,49 @@
+/*
+Source: https://codepen.io/smhigley/pen/gwYPvR
+Author: Sarah Higley
+License: MIT License
+*/
+  
+  
+  .falling-leaves {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0);
+    border: 0px solid #fff;
+    border-radius: 0px;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/sidebar-bg.png) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.4;
+  }
+  
+  .leaf-scene {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      transform-style: preserve-3d;
+  
+   
+    }
+
+    .leaf-scene > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 200px;
+        background: url(https://o.remove.bg/downloads/954d9f81-4459-43b0-80a1-de109cc72f58/single-leaf-pixel-art-sytle_475147-1423-removebg-preview.png) no-repeat;
+        background-size: 100%;
+        transform-style: preserve-3d;
+        backface-visibility: visible;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+        image-rendering: -moz-crisp-edges;
+
+      }
