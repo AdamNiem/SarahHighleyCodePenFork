@@ -38,7 +38,7 @@ License: MIT License
         left: 0;
         width: 50px;
         height: 50px;
-        background: url(https://purepng.com/public/uploads/large/purepng.com-red-autumn-leaf-clipartautumnleavesleafmapleseasonfall-541521070420beapw.png) no-repeat;
+        background: url(https://purepng.com/public/uploads/large/purepng.com-red-autumn-leaf-clipartautumnleavesleafmapleseasonfall-541521070420beapw.png) no-repeat; /* cc0 https://purepng.com/photo/2361/clipart-red-autumn-leaf-clipart*/
         background-size: 100%;
         transform-style: preserve-3d;
         backface-visibility: visible;
